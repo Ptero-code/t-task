@@ -1,0 +1,40 @@
+@blue: #6EBBD3;
+
+
+.button-large {
+    padding: 24px 129px;
+    border-radius: 10px;
+}
+.button-subscribe {
+    padding: 24px 75px;
+    background: #6EBBD3;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    transition: 0.3s;
+    &:hover {
+        background: saturate(@blue, 30%);
+        cursor: pointer;
+    }
+}
+.desc-button-sold {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 22px 154px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: not-allowed;
+}
+.desc-button {
+    background-color: #6EBBD3;
+    color: #fff;
+    border: none;
+    padding: 22px 157px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    &:hover {
+        background: saturate(@blue, 30%);
+        cursor: pointer;
+    }
+}

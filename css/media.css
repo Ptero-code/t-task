@@ -1,0 +1,117 @@
+@media (max-width: 1010px) {
+  .header .container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    /*  позиц по центру */
+    padding: 0 52px;
+  }
+  .header .tel {
+    font-size: 11px;
+  }
+  .header .call p {
+    font-size: 14px;
+  }
+  .header .search h1 {
+    font-size: 30px;
+  }
+  .content .content__cats {
+    grid-template-columns: repeat(2, 375px);
+  }
+  .footer .footer__text {
+    padding-right: 9px;
+  }
+  .footer .footer__text h2 {
+    font-size: 33px;
+  }
+  .footer .footer__text p {
+    font-size: 19px;
+  }
+  .footer .footer__content {
+    padding: 92px 10px;
+  }
+  .footer .input-subscribe {
+    width: 260px;
+  }
+  .footer .button-subscribe {
+    padding: 24px 26px;
+  }
+}
+@media (max-width: 880px) {
+  .logo {
+    margin: 0;
+  }
+  .header .menu {
+    display: none;
+  }
+  .header .menuToggle {
+    display: block;
+    top: 64px;
+    right: 0;
+    bottom: 0;
+  }
+  .header .header__nav-bars {
+    display: block;
+  }
+  .header .header-menu {
+    display: none;
+    position: absolute;
+    background: #e4e4e4;
+    width: 400px;
+    right: 0;
+    height: 267px;
+    z-index: 1;
+    top: 100px;
+  }
+  .header .header-menu li {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  .header .search {
+    justify-content: center;
+  }
+  .footer .footer__content {
+    flex-direction: column;
+    align-items: center;
+    padding: 31px 10px;
+  }
+  .footer .footer__text h2 {
+    font-size: 30px;
+  }
+  .footer .footer__text p {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  .footer .footer__form p {
+    font-size: 17px;
+    text-align: center;
+  }
+  .footer .input-subscribe,
+  .footer .button-subscribe {
+    font-size: 11px;
+  }
+}
+@media (max-width: 800px) {
+  .content .content__cats {
+    grid-template-columns: repeat(1, 375px);
+  }
+  .content .content__button-show {
+    padding: 64px 44px;
+    text-align: center;
+  }
+  .footer .container {
+    padding: 0;
+  }
+  .footer .input-subscribe {
+    width: 383px;
+  }
+  .footer .button-subscribe {
+    padding: 24px 154px;
+  }
+  #upbutton {
+    height: 52px;
+    width: 52px;
+    right: 0;
+  }
+}

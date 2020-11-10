@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Task</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/custom_select.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/custom_select.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="nav">
+                <a href="#" class="logo_img"><img src="img/logo.svg" alt="Burning Man" class="logo"></a>
+                <ul class="menu">
+                    <li>
+                        <a href="#">
+                            Main
+                        </a>
+                        <a href="#">
+                            Gallery
+                        </a>
+                        <a href="#">
+                            News
+                        </a>
+                        <a href="#">
+                            Profile
+                        </a>
+                    </li>
+                </ul>
+                <div class="call">
+                    <a href="tel:+544349000000" class="tel">
+                        +544 3490 00000
+                    </a>
+                    <p>Звони скорее!</p>
+                </div>
+                <div class="header__nav-bars">
+                    <div class="menuToggle"><i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                    </div>
+                        <ul class="header-menu">
+                            <a href="#"><li class="header__menu-text">Main</li></a>
+                            <a href="#"><li class="header__menu-text">Gallery</li></a>
+                            <a href="#"><li class="header__menu-text">News</li></a>
+                            <a href="#"><li class="header__menu-text">Profile</li></a>
+                        </ul>
+                </div>
+            </div>
+
+            
+            <div class="search">
+                <h1>Найдено 349 котов</h1>
+            </div>
+        </div>
+    </header>
+    <section class="sort">
+        <div class="container">
+            <div class="sort__types">
+                <p>Сортировать по:</p>
+                    <div class="select">
+                        <input class="select__input" type="hidden" name="">
+                        <div class="select__head">Цене</div>
+                        <ul class="select__list" style="display: none;">
+                            <li class="select__item">Вариант 1</li>
+                            <li class="select__item">Вариант 2</li>
+                            <li class="select__item">Вариант 3</li>
+                        </ul>
+                    </div>
+                    <div class="select2">
+                        <input class="select2__input" type="hidden" name="">
+                        <div class="select2__head">Возрасту</div>
+                        <ul class="select2__list" style="display: none;">
+                            <li class="select2__item">Вариант 1</li>
+                            <li class="select2__item">Вариант 2</li>
+                            <li class="select2__item">Вариант 3</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section class="content">
+        <div class="container">
+            <div class="content__cats">
+                <div class="cat">
+                    <!-- <img src="img/sale.png" class="sale" alt=""> -->
+                    <img src="img/item1.png" alt="cat">
+                    <a href="#">
+                        <i class="fa fa-heart fa-3x" aria-hidden="true"></i>
+                    </a>
+                    
+                    <div class="desc">
+                        <h2 class="desc__h2">Кот полосатый</h2>
+                        <div class="desc-about">
+                            <p class="streak">Коричневый окрас</p>
+                            <div class="age">
+                                <p><span>2 мес.</span></p>
+                                <p>Возраст</p>
+                            </div>
+                            <div class="paw">
+                                <p><span>4</span></p>
+                                <p>Кол-во лап</p>
+                            </div>
+                            
+                        </div>
+                        <div class="price">
+                            <span>30 000 руб.</span>
+                        </div>
+                    </div>
+                    <button class="desc-button">Купить</button>
+                </div>
+                <div class="cat">
+                    <img src="img/item2.png" alt="cat">
+                    <a href="#">
+                        <i class="fa fa-heart fa-3x" aria-hidden="true"></i>
+                    </a> 
+                    <div class="desc">
+                        <h2 class="desc__h2">Кот полосатый</h2>
+                        <div class="desc-about">
+                            <p class="streak">Коричневый окрас</p>
+                            <div class="age">
+                                <p><span>2 мес.</span></p>
+                                <p>Возраст</p>
+                            </div>
+                            <div class="paw">
+                                <p><span>4</span></p>
+                                <p>Кол-во лап</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <span>40 000 руб.</span>
+                        </div>
+                    </div>
+                    <button class="desc-button-sold">Продан</button>
+                </div>
+                <div class="cat">
+                    <img src="img/item3.png" alt="cat">
+                    <a href="#">
+                        <i class="fa fa-heart fa-3x" aria-hidden="true"></i>
+                    </a> 
+                    <div class="desc">
+                        <h2 class="desc__h2">Кот полосатый</h2>
+                        <div class="desc-about">
+                            <p class="streak">Коричневый окрас</p>
+                            <div class="age">
+                                <p><span>2 мес.</span></p>
+                                <p>Возраст</p>
+                            </div>
+                            <div class="paw">
+                                <p><span>4</span></p>
+                                <p>Кол-во лап</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <span>20 000 руб.</span>
+                        </div>
+                    </div>
+                    <button class="desc-button">Купить</button>
+                </div>
+                <div class="cat">
+                    <img src="img/item1.png" alt="cat">
+                    <a href="#">
+                        <i class="fa fa-heart fa-3x" aria-hidden="true"></i>
+                    </a> 
+                    <div class="desc">
+                        <h2 class="desc__h2">Кот полосатый</h2>
+                        <div class="desc-about">
+                            <p class="streak">Коричневый окрас</p>
+                            <div class="age">
+                                <p><span>2 мес.</span></p>
+                                <p>Возраст</p>
+                            </div>
+                            <div class="paw">
+                                <p><span>4</span></p>
+                                <p>Кол-во лап</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <span>25 000 руб.</span>
+                        </div>
+                    </div>
+                    <button class="desc-button">Купить</button>
+                </div>
+                <div class="cat">
+                    <img src="img/item3.png" alt="cat">
+                    <a href="#">
+                        <i class="fa fa-heart fa-3x" aria-hidden="true"></i>
+                    </a> 
+                    <div class="desc">
+                        <h2 class="desc__h2">Кот полосатый</h2>
+                        <div class="desc-about">
+                            <p class="streak">Коричневый окрас</p>
+                            <div class="age">
+                                <p><span>2 мес.</span></p>
+                                <p>Возраст</p>
+                            </div>
+                            <div class="paw">
+                                <p><span>4</span></p>
+                                <p>Кол-во лап</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <span>30 000 руб.</span>
+                        </div>
+                    </div>
+                    <button class="desc-button">Купить</button>
+                </div>
+                <div class="cat">
+                    <img src="img/item2.png" alt="cat">
+                    <a href="#">
+                        <i class="fa fa-heart fa-3x" aria-hidden="true"></i>
+                    </a> 
+                    <div class="desc">
+                        <h2 class="desc__h2">Кот полосатый</h2>
+                        <div class="desc-about">
+                            <p class="streak">Коричневый окрас</p>
+                            <div class="age">
+                                <p><span>2 мес.</span></p>
+                                <p>Возраст</p>
+                            </div>
+                            <div class="paw">
+                                <p><span>4</span></p>
+                                <p>Кол-во лап</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <span>25 000 руб.</span>
+                        </div>
+                    </div>
+                    <button class="desc-button-sold">Продан</button>
+                </div>
+            </div>
+            <div class="content__button-show">
+                <button class="button-show button-large">Показать еще 20</button>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__text">
+                    <h2>Успей купить!</h2>
+                    <p>Подпишись и успей<br>словить все акции</p>
+                </div>
+                <div class="footer__form">
+                    <input type="text" class="input-subscribe" placeholder="Email">
+                    <button class="button-subscribe">Подписаться</button>
+                    <p>
+                        <input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo">
+                        <label for="color-1">Подписаться на новости</label>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="upbutton"></div>
+<script src="https://kit.fontawesome.com/7852f64c69.js" crossorigin="anonymous"></script>
+<script src="js/button-up.js"></script>
+<script src="js/menu.js"></script>
+</body>
+</html>
